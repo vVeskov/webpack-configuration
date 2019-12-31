@@ -7,7 +7,7 @@ const AsyncPizza = asyncComponent(() => {
     return import('./container/Pizza')
 })
 
-class App extends Componen {
+class App extends Component {
     render() {
         return (
             <div>
